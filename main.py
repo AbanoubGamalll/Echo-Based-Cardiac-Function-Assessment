@@ -8,19 +8,15 @@ from HelperFunction import load_or_get_data
 from paths import _ED_Model_Path, _ES_Model_Path, _transformerModelPath, _videosPath
 
 # Data
-train_dataSet = load_or_get_data('TRAIN')
-print('TRAIN =', len(train_dataSet))
 test_dataSet = load_or_get_data('TEST')
 print('TEST =', len(test_dataSet))
-val_dataSet = load_or_get_data('VAL')
-print('VAL =', len(val_dataSet))
 
 # Load Model
 transformerModel = loadTransformerModel(_transformerModelPath)
 ED_Model = loadUnetModel(_ED_Model_Path)
 ES_Model = loadUnetModel(_ES_Model_Path)
 
-for obj in test_dataSet:
+for obj in test_dataSet[:]:
     name = obj.fileName + '.avi'
     videoPath = os.path.join(_videosPath, name)
 

@@ -12,5 +12,5 @@ _transformerModelPath = './Models/TransformerModel.pt'
 
 # U-NET
 _trueMasksPath = './True Masks'
-_ED_Model_Path = 'Models/ED_5_U_NET_Model.weights.h5'
-_ES_Model_Path = './Models/ES_5_U_NET_Model.weights.h5'
+_ED_Model_Path = 'Models/ED_U_NET_Model.weights.h5'
+_ES_Model_Path = './Models/ES_U_NET_Model.weights.h5'
