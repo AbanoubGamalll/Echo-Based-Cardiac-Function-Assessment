@@ -1,4 +1,13 @@
 # DataSet
+# - EchoNet-Dynamic
+# ----- FileList.csv
+# ----- VolumeTracings.csv
+# ----- Videos
+# ---------- 0X1A0A263B22CCD966.avi
+# ---------- 0X1A2A76BDB5B98BED.avi
+# ---------- 0X1A2C60147AF9FDAE.avi
+# ---------- etc.
+
 _dataRootPath = "E:/Fcis Material/Graduation Project/DataSet (EchoNet-Dynamic)/"
 _videosPath = _dataRootPath + 'Videos'
 _fileNamesPath = _dataRootPath + 'FileList.csv'
