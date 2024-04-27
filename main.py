@@ -5,7 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 from Transformer import loadTransformerModel, Detect_ESED_Frame
 from Unet import loadUnetModel, predictLVForEDESFrames
 from HelperFunction import load_or_get_data
-from paths import _ED_Model_Path, _ES_Model_Path, _transformerModelPath, _videosPath
+from Paths import _ED_Model_Path, _ES_Model_Path, _transformerModelPath, _videosPath
 
 # Data
 test_dataSet = load_or_get_data('TEST')
