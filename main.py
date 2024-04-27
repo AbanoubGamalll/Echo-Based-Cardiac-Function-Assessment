@@ -17,10 +17,11 @@ ED_Model = loadUnetModel(_ED_Model_Path)
 ES_Model = loadUnetModel(_ES_Model_Path)
 
 for obj in test_dataSet[:]:
+    print(obj.fileName)
     name = obj.fileName + '.avi'
     videoPath = os.path.join(_videosPath, name)
 
     ES_IMG, ED_IMG = Detect_ESED_Frame(videoPath, transformerModel)
     efPred = predictLVForEDESFrames(ES_IMG, ED_IMG, ED_Model, ES_Model)
 
-    print(efPred)
+    print('EF Predicted =', efPred)
