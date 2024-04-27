@@ -16,12 +16,14 @@ transformerModel = loadTransformerModel(_transformerModelPath)
 ED_Model = loadUnetModel(_ED_Model_Path)
 ES_Model = loadUnetModel(_ES_Model_Path)
 
-for obj in test_dataSet[:]:
+for obj in test_dataSet[0:1]:
     print(obj.fileName)
     name = obj.fileName + '.avi'
     videoPath = os.path.join(_videosPath, name)
 
-    ES_IMG, ED_IMG = Detect_ESED_Frame(videoPath, transformerModel)
-    efPred = predictLVForEDESFrames(ES_IMG, ED_IMG, ED_Model, ES_Model)
+    ES_Frame_IMG, ED_Frame_IMG = Detect_ESED_Frame(videoPath, transformerModel)
+
+    efPred = predictLVForEDESFrames(ES_Frame_IMG, ED_Frame_IMG, ED_Model, ES_Model)
 
     print('EF Predicted =', efPred)
+    print('-----------------------')
