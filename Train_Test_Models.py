@@ -1,7 +1,7 @@
 import Transformer
 import Unet
 from HelperFunction import load_or_get_data, CreateAllMasks, getImageAndMasks
-from paths import _transformerModelPath, _trueMasksPath, _ED_Model_Path, _ES_Model_Path
+from Paths import _transformerModelPath, _trueMasksPath, _ED_Model_Path, _ES_Model_Path
 
 train_dataSet = load_or_get_data(spilt_type='TRAIN')
 print('TRAIN =', len(train_dataSet))

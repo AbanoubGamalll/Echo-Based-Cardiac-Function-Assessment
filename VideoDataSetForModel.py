@@ -2,7 +2,7 @@ import os
 import torch
 import numpy as np
 from HelperFunction import _extractVideoFrames, _mirroringVideo
-from paths import _videosPath
+from Paths import _videosPath
 
 
 class VideoDataSetForModel(torch.utils.data.Dataset):

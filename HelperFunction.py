@@ -7,7 +7,7 @@ import pandas as pd
 import tensorflow as tf
 
 from VideoData import VideoData, LandMarks
-from paths import _fileNamesPath, _volumeTracingPath, _videosPath, _loadedVideosPath
+from Paths import _fileNamesPath, _volumeTracingPath, _videosPath, _loadedVideosPath
 
 
 def _FilterNot_42rows(VolumeTracings, FileList):
