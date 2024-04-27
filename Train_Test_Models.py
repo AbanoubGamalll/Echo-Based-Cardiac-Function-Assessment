@@ -13,7 +13,12 @@ val_dataSet = load_or_get_data(spilt_type='VAL')
 print('VAL =', len(val_dataSet))
 
 # Transformer Model
-Transformer.train(train_dataSet, num_epochs=2, batch_size=2, parallel=True)
+# Train Note: Use 2 GPU to get fast train
+# Transformer.train(train_dataSet, num_epochs=7, batch_size=2, parallel=True)
+# Train Note: Use CPU
+Transformer.train(train_dataSet, num_epochs=7, batch_size=1, parallel=True)
+
+
 Transformer.test(_transformerModelPath, test_dataSet)
 
 # Prepare Data For U-NET

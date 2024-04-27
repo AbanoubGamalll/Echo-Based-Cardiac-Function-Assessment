@@ -63,7 +63,6 @@ def run_epoch(model, dataloader, optim, device):
     return (total / 1), loss_hist
 
 
-# Note: Use 2 GPU ,2 batch_size
 def train(train_dataSet, num_epochs, batch_size, parallel):
     np.random.seed(0)
     torch.manual_seed(0)

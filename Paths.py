@@ -1,5 +1,5 @@
 # DataSet
-_dataRootPath = ""
+_dataRootPath = "E:/Fcis Material/Graduation Project/DataSet (EchoNet-Dynamic)/"
 _videosPath = _dataRootPath + 'Videos'
 _fileNamesPath = _dataRootPath + 'FileList.csv'
 _volumeTracingPath = _dataRootPath + 'VolumeTracings.csv'
