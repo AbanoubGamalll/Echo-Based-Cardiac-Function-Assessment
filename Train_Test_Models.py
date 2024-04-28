@@ -16,7 +16,7 @@ print('VAL =', len(val_dataSet))
 # Train Note: Use 2 GPU to get fast train
 # Transformer.train(train_dataSet, num_epochs=7, batch_size=2, parallel=True)
 # Train Note: Use CPU
-trainTransformer(train_dataSet, num_epochs=7, batch_size=1, parallel=True)
+trainTransformer(train_dataSet, num_epochs=7, batch_size=1, parallel=False)
 
 testTransformer(_transformerModelPath, test_dataSet)
 

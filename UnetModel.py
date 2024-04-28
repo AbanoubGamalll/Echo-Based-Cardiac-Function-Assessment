@@ -1,6 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras.layers import concatenate, Dropout, Conv2DTranspose, Input, Conv2D, MaxPooling2D
-
+from keras.src.layers import concatenate, Dropout, Conv2DTranspose, Input, Conv2D, MaxPooling2D
 
 # UNQ_C1
 # GRADED FUNCTION: conv_block
