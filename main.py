@@ -26,4 +26,5 @@ for obj in test_dataSet[0:1]:
     efPred = predictLVForEDESFrames(ES_Frame_IMG, ED_Frame_IMG, ED_Model, ES_Model)
 
     print('EF Predicted =', efPred)
+    print('EF =', obj.EF_value)
     print('-----------------------')
