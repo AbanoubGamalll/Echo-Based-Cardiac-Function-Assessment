@@ -63,7 +63,7 @@ def run_epoch(model, dataloader, optim, device):
     return (total / 1), loss_hist
 
 
-def train(train_dataSet, num_epochs, batch_size, parallel):
+def trainTransformer(train_dataSet, num_epochs, batch_size, parallel):
     np.random.seed(0)
     torch.manual_seed(0)
 
@@ -225,7 +225,7 @@ def testForOneVideo(model, frames, device):
     return predict
 
 
-def test(transformer_path, dataSet):
+def testTransformer(transformer_path, dataSet):
     device = 'cpu'
     device = torch.device(device)
     model = loadTransformerModel(transformer_path)

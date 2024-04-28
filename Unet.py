@@ -57,7 +57,7 @@ def loadUnetModel(path):
     return loaded_model
 
 
-def train(dataSet, epochs=5, batchSize=32, modelPath='', name=''):
+def trainUnet(dataSet, epochs=5, batchSize=32, modelPath='', name=''):
     unet = unetModel(input_size=(112, 112, 3), n_filters=32, n_classes=2)
     unet.compile(optimizer='adam', loss=SparseCategoricalCrossentropy(from_logits=True),
                  metrics=['accuracy'])
@@ -72,7 +72,7 @@ def train(dataSet, epochs=5, batchSize=32, modelPath='', name=''):
     unet.save_weights(f'{modelPath}/{name}.weights.h5')
 
 
-def test(dataSet, path=''):
+def testUnet(dataSet, path=''):
     dataSet.batch(1)
     dataSet = dataSet.cache().batch(1)
 
