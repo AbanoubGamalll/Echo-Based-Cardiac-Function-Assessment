@@ -298,6 +298,12 @@ def _saveImageAndMask(frameType, split, trueMasksPath='', ):
 
 
 def CreateAllMasks(trueMasksPath):
+    try:
+        os.makedirs(trueMasksPath)
+        print(f'Dir_{trueMasksPath} create')
+    except OSError:
+        print(f'Dir_{trueMasksPath} is exist')
+
     _saveImageAndMask(frameType='ES', split='TRAIN', trueMasksPath=trueMasksPath)
     _saveImageAndMask(frameType='ES', split='TEST', trueMasksPath=trueMasksPath)
     _saveImageAndMask(frameType='ES', split='VAL', trueMasksPath=trueMasksPath)
