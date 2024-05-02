@@ -23,14 +23,8 @@ ES_Model = loadUnetModel(_ES_Model_Path)
 def read_root():
     return {"Hello": "World"}
 
-
-@app.get("/idx/{item_id}")
-def read_item(item_id: int):
-    return {"item_id": item_id}
-
-
 @app.post("/ef")
-def predictEF(file: UploadFile = File(...)):
+def predict_EF(file: UploadFile = File(...)):
     # Copy File
     with open(file.filename, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
