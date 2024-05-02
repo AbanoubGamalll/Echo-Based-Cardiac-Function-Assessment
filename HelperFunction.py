@@ -134,7 +134,8 @@ def load_or_get_data(spilt_type="ALL"):
 
 def _extractVideoFrames(path):
     capture = cv2.VideoCapture(str(path))
-
+    if not capture.isOpened():
+        return None
     frame_count = int(capture.get(cv2.CAP_PROP_FRAME_COUNT))
     frame_width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
@@ -146,6 +147,7 @@ def _extractVideoFrames(path):
             raise ValueError("Failed to load frame #{} of {}.".format(count, path))
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         frames[count] = frame
+    capture.release()
 
     return frames
 

@@ -282,6 +282,8 @@ def Detect_ESED_Frame(video_path, transformerModel, labels=None):
     device = torch.device(device)
     # Prepare Video
     frames = _extractVideoFrames(video_path)
+    if frames is None:
+        return None,None
     # (F,W,H,C) > F C W H
     frames = frames.transpose((3, 0, 1, 2))
     # Load video into np.array
