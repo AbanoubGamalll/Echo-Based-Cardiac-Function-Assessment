@@ -29,19 +29,6 @@ def read_item(item_id: int):
     return {"item_id": item_id}
 
 
-# # 0 > 58.336553301413595
-# @app.get("/ef/{item_id}")
-# def predictEFByIndex(idx: int):
-#     obj = dataSet[idx]
-#
-#     name = obj.fileName + '.avi'
-#     # videoPath = os.path.join(_videosPath, name)
-#     # ES_Frame_IMG, ED_Frame_IMG = Detect_ESED_Frame(videoPath, transformerModel)
-#     ES_Frame_IMG, ED_Frame_IMG = obj.ES_Frame_IMG, obj.ED_Frame_IMG
-#
-#     efPred = predictLVForEDESFrames(ES_Frame_IMG, ED_Frame_IMG, ED_Model, ES_Model)
-#     return {'name': name, 'EF Pred': efPred}
-
 @app.post("/ef")
 def predictEF(file: UploadFile = File(...)):
     # Copy File
