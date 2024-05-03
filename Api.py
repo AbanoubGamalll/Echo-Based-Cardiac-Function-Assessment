@@ -39,7 +39,6 @@ def predict_EF(file: UploadFile = File(...)):
 
     # Remove Video
     os.remove(file.filename)
-    efPred = 55.66
     print("fileName", file.filename)
     print("efPredicted", efPred)
 
