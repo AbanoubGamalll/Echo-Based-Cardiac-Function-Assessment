@@ -31,11 +31,11 @@ def predict_EF(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
 
     # Predict
-    # ES_Frame_IMG, ED_Frame_IMG = Detect_ESED_Frame(file.filename, transformerModel)
-    # if ES_Frame_IMG is None or ED_Frame_IMG is None:
-    #     return {"error": "Unable to open video file"}
-    #
-    # efPred = predictLVForEDESFrames(ES_Frame_IMG, ED_Frame_IMG, ED_Model, ES_Model)
+    ES_Frame_IMG, ED_Frame_IMG = Detect_ESED_Frame(file.filename, transformerModel)
+    if ES_Frame_IMG is None or ED_Frame_IMG is None:
+        return {"error": "Unable to open video file"}
+
+    efPred = predictLVForEDESFrames(ES_Frame_IMG, ED_Frame_IMG, ED_Model, ES_Model)
 
     # Remove Video
     os.remove(file.filename)
