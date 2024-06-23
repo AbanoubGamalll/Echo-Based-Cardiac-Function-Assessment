@@ -16,7 +16,7 @@ transformerModel = loadTransformerModel(_transformerModelPath)
 ED_Model = loadUnetModel(_ED_Model_Path)
 ES_Model = loadUnetModel(_ES_Model_Path)
 
-for obj in test_dataSet[0:1]:
+for obj in test_dataSet:
     print(obj.fileName)
     name = obj.fileName + '.avi'
     videoPath = os.path.join(_videosPath, name)
