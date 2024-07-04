@@ -1,6 +1,6 @@
 # AI Model & API
 
-> Methodology:
+## Methodology:
 
 # HyperModel:
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/HyperModel.png"/>
