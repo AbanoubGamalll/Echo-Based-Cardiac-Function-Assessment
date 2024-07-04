@@ -14,8 +14,8 @@
 5) Loading...: <br>
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/Loading.png" width="300"/>
 
-5) Detecting (ES-ED) Frames: <br>
+6) Detecting (ES-ED) Frames: <br>
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/Result_1.png" width="300"/>
 
-4) Detecting Left Ventricle: <br>
+7) threshold classification: <br>
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media//Result_2_Normal.png" width="300"/> <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media//Result_2_Normal.png" width="300"/>
