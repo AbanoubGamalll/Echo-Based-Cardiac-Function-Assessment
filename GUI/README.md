@@ -17,5 +17,5 @@
 6) Detecting (ES-ED) Frames: <br>
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/Result_1.png" width="300"/>
 
-7) threshold classification: <br>
+7) Threshold Classification: <br>
 <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media//Result_2_Normal.png" width="300"/> <img src="https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media//Result_2_Normal.png" width="300"/>
