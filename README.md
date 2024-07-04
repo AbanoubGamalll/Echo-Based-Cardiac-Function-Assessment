@@ -40,8 +40,11 @@ and choose one model to train each time.
 
 
 # Test Models
-> Add the path of the model in this file
- <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>.
+- Run
+<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
+to open the local server using FastAPI.
+- Run the <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/GUI"> GUI </a>
+file using flutter.
 
 # Team Members
 - Abanoub Gamal
