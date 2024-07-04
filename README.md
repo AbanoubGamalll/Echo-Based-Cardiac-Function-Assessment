@@ -31,11 +31,11 @@ Note: you can use Kaggle directly from
 and choose one model to train each time.
 
 1) HyperModel:
-> Detecting (ES-ED) Frames 
+> Detecting (ES-ED) Frames <br>
 ![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/HeartCycle.png)
 
 2) U-Net Model:
-> Detecting Left Ventricle 
+> Detecting Left Ventricle <br>
 ![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/DetectingLV.png)
 
 
