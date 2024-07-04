@@ -1,6 +1,6 @@
 > # Echo-Based Cardiac Function Assessment `Graduation Project 2024`
 
-> you can use the Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/notebook"> HERE </a>.
+> you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/notebook"> HERE </a>.
 
 # Before using this repo
 You will need to request access to the 
