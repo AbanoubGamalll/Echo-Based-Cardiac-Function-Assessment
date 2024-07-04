@@ -36,6 +36,15 @@ and choose one model to train each time.
 
 # Test Models
 - Add the Model Pathts in <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>
+Can find All Models here:
+        - Models(Transformer) >> <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/transformer/1> HyperModel </a>
+        - Models(ED) >> <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/ed/1> U-Net ED </a>
+        - Models(ES) >> <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/es/1>  U-Net ES </a>
+
+<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
+<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
+<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
+
 - Run
 <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
 to open the local server using FastAPI.
