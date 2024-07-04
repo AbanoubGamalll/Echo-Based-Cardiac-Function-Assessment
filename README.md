@@ -32,15 +32,15 @@ and choose one model to train each time.
 
 1) HyperModel:
 > Detecting (ES-ED) Frames 
-![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/Media/HeartCycle.png)
+![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/HeartCycle.png)
 
 2) U-Net Model:
 > Detecting Left Ventricle 
-![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/Media/DetectingLV.png)
+![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/DetectingLV.png)
 
 
 # Test Models
-> Add the path of model in this file
+> Add the path of the model in this file
  <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>.
 
 # Team Members
