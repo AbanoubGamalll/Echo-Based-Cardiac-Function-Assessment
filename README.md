@@ -1,15 +1,15 @@
 > # Echo-Based Cardiac Function Assessment `Graduation Project 2024`
 
-
+> you can use the Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/notebook"> HERE </a>.
 
 # Before using this repo
 You will need to request access to the 
 <a href = 'https://echonet.github.io/dynamic'>EchoNet-Dynamic</a>
 dataset from Stanford University. </br>
 Once you have access to the data, download it and write the path of the "EchoNet-Dynamic" folder in the _dataRootPath variable in
-<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>..
+<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>.
 
- <pre>
+<pre>
 EchoNet-Dynamic Dataset
 ├── FileList.csv
 ├── VolumeTracings.csv
@@ -19,11 +19,6 @@ EchoNet-Dynamic Dataset
     ├── 0X1A2C60147AF9FDAE.avi
     └── etc.
 </pre>
-
-Note: you can use Kaggle directly from 
-<a href="https://www.kaggle.com/code/abanoubgamal/notebook"> HERE </a>.
-
-
 
 # Train Models
 - train this model from 
@@ -40,6 +35,7 @@ and choose one model to train each time.
 
 
 # Test Models
+- Add the Model Pathts in <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>
 - Run
 <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
 to open the local server using FastAPI.
