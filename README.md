@@ -1,6 +1,6 @@
 > # Echo-Based Cardiac Function Assessment `Graduation Project 2024`
 
-> you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/notebook"> HERE </a>.
+> you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/gp-notebook"> HERE </a>.
 
 # Before using this repo
 You will need to request access to the 
@@ -37,7 +37,7 @@ and choose one model to train each time.
 # Test Models
 - Add the Model Pathts in <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a> <br>
 Can find All Models here: <br>
-        - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/transformer/1> HyperModel </a> <br>
+        - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/transformer/1> HyperModel </a> Download best.pt <br> 
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/ed/1> U-Net ED </a> <br>
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/es/1>  U-Net ES </a> <br>
 
