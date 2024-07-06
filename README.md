@@ -3,6 +3,9 @@
 - `The goal of this project is to create a sophisticated Deep Learning system that can quickly and accurately evaluate Left Ventricle Ejection Fraction (LVEF), enhancing the diagnosis and management of cardiovascular diseases.` 
 - `Precise LVEF assessment is vital for forecasting the prognosis in conditions such as congestive heart failure, yet existing techniques are often slow and lack precision.`
 
+# System Architecture <br>
+![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/SystemArchitecture.png)
+
 
 # Before using this repo
 > you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/gp-notebook"> HERE </a>.
@@ -30,11 +33,11 @@ EchoNet-Dynamic Dataset
 and choose one model to train each time.
 
 1) HyperModel:
-> Detecting (ES-ED) Frames <br>
+- Detecting (ES-ED) Frames <br><br>
 ![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/HeartCycle.png)
 
 2) U-Net Model:
-> Detecting Left Ventricle <br>
+- Detecting Left Ventricle <br><br>
 ![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/DetectingLV.png)
 
 
