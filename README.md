@@ -1,8 +1,12 @@
-> # Echo-Based Cardiac Function Assessment `Graduation Project 2024`
+# Echo-Based Cardiac Function Assessment `Graduation Project 2024`
 
-> you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/gp-notebook"> HERE </a>.
+- `The goal of this project is to create a sophisticated Deep Learning system that can quickly and accurately evaluate Left Ventricle Ejection Fraction (LVEF), enhancing the diagnosis and management of cardiovascular diseases.` 
+- `Precise LVEF assessment is vital for forecasting the prognosis in conditions such as congestive heart failure, yet existing techniques are often slow and lack precision.`
+
 
 # Before using this repo
+> you can use Kaggle Notebook directly from <a href="https://www.kaggle.com/code/abanoubgamal/gp-notebook"> HERE </a>.
+
 You will need to request access to the 
 <a href = 'https://echonet.github.io/dynamic'>EchoNet-Dynamic</a>
 dataset from Stanford University. </br>
