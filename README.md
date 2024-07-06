@@ -4,7 +4,7 @@
 - `Precise LVEF assessment is vital for forecasting the prognosis in conditions such as congestive heart failure, yet existing techniques are often slow and lack precision.`
 
 # System Architecture <br>
-![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/SystemArchitecture.png)
+![alt results](/Media/SystemArchitecture.png)
 
 
 # Before using this repo
@@ -14,7 +14,7 @@ You will need to request access to the
 <a href = 'https://echonet.github.io/dynamic'>EchoNet-Dynamic</a>
 dataset from Stanford University. </br>
 Once you have access to the data, download it and write the path of the "EchoNet-Dynamic" folder in the _dataRootPath variable in
-<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a>.
+<a href = "/Model/Paths.py">Paths</a>.
 
 <pre>
 EchoNet-Dynamic Dataset
@@ -29,29 +29,29 @@ EchoNet-Dynamic Dataset
 
 # Train Models
 - train this model from 
- <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Main.py">Main</a>
+ <a href = "/Model/Main.py">Main</a>
 and choose one model to train each time.
 
 1) HyperModel:
 - Detecting (ES-ED) Frames <br><br>
-![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/HeartCycle.png)
+![alt results](/Media/HeartCycle.png)
 
 2) U-Net Model:
 - Detecting Left Ventricle <br><br>
-![alt results](https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Media/DetectingLV.png)
+![alt results](/Media/DetectingLV.png)
 
 
 # Test Models
-- Add the Model Pathts in <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Paths.py">Paths</a> <br>
+- Add the Model Pathts in <a href = "/Model/Paths.py">Paths</a> <br>
 Can find All Models here: <br>
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/transformer/1> HyperModel </a> Download best.pt <br> 
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/ed/1> U-Net ED </a> <br>
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/es/1>  U-Net ES </a> <br>
 
 - Run
-<a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/Model/Api.py"> API </a>
+<a href = "/Model/Api.py"> API </a>
 to open the local server using FastAPI.
-- Run the <a href = "https://github.com/AbanoubGamalll/Echo-Based-Cardiac-Function-Assessment/blob/main/GUI"> GUI </a>
+- Run the <a href = "/GUI"> GUI </a>
 file using flutter.
 
 # Team Members
