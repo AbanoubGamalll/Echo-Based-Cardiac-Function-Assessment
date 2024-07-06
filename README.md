@@ -1,4 +1,4 @@
-# Echo-Based Cardiac Function Assessment `Graduation Project 2024`
+# Echo-Based Cardiac Function Assessment <br> `Graduation Project 2024`
 
 - `The goal of this project is to create a sophisticated Deep Learning system that can quickly and accurately evaluate Left Ventricle Ejection Fraction (LVEF), enhancing the diagnosis and management of cardiovascular diseases.` 
 - `Precise LVEF assessment is vital for forecasting the prognosis in conditions such as congestive heart failure, yet existing techniques are often slow and lack precision.`
