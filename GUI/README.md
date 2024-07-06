@@ -21,4 +21,4 @@
 <img src="/Media/Result_1.png" width="300"/>
 
 7) Threshold Classification: <br>
-<img src="/Media/Result_2_Normal.png" width="300"/> <img src="/Media/Result_2_Normal.png" width="300"/>
+<img src="/Media/Result_2_Normal.png" width="300"/> <img src="/Media/Result_2_Abnormal.png" width="300"/>
