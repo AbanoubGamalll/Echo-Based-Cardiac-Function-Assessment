@@ -43,7 +43,7 @@ and choose one model to train each time.
 
 # Test Models
 - Add the Model Pathts in <a href = "/Model/Paths.py">Paths</a> <br>
-Can find All Models here: <br>
+You can find All Models here: <br>
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/transformer/1> HyperModel </a> Download best.pt <br> 
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/ed/1> U-Net ED </a> <br>
         - <a href = https://www.kaggle.com/models/abanoubgamal/u-net/Keras/es/1>  U-Net ES </a> <br>
@@ -65,3 +65,9 @@ file using flutter.
 # Supervisors
 - Dr. Manal Mohsen Tantawi
 - T.A. Radwa Reda Hossieny
+
+
+# Competition
+- We participated in the Military Technical College Competition and got a good impression from all the judges.
+  
+![alt results](Media/MilitaryTechnicalCollegeCompetitionForGP.jpg)
