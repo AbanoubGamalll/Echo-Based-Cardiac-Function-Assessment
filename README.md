@@ -72,10 +72,10 @@ file using flutter.
 - Secured Second Place in the AI in the Medical Field competition at Marathon Benha University 🥈.<br><br>
 ![alt results](Media/HonoringCeremony.jpg)
 ![alt results](Media/BenhaUniversityMarathonReward.jpg)
-![alt results](Media/CertificateOfparticipationAtMarathOnenhaUniversity.jpg)
+![alt results](Media/CertificateOfParticipationAtMarathonBenhaUniversity.jpg)
 --------------
 
-- Presented and published our scientific paper at the 8th International Undergraduate Research Conference (IUGRC) at the Military Technical College. Also, participated in the Military Technical College Science Exhibition, presenting both the paper and the project in the presence of the Minister of Defense. Additionally, Invited to present and test the project at the Military Technical Hospital. <br><br>
+- Presented and published our scientific paper at the 8th International Undergraduate Research Conference (IUGRC) at the Military Technical College. Also, We participated in the Military Technical College Science Exhibition, presenting both the paper and the project in the presence of the Minister of Defense. Additionally, We Were Invited to present and test the project at the Military Technical Hospital. <br><br>
 ![alt results](Media/MilitaryTechnicalCollegeScienceExhibition.jpg)
 ![alt results](Media/MilitaryTechnicalCollegeCompetitionForGP.jpg)
 
