@@ -52,7 +52,7 @@ You can find All Models here: <br>
 <a href = "/Model/Api.py"> API </a>
 to open the local server using FastAPI.
 - Run the <a href = "/GUI"> GUI </a>
-file using flutter.
+file using Flutter.
 
 # Team Members
 - Abanoub Gamal
@@ -67,7 +67,7 @@ file using flutter.
 - T.A. Radwa Reda Hossieny
 
 
-# Competitions
+# Competitions & Rewards
 
 - Secured Second Place in the AI in the Medical Field competition at Marathon Benha University 🥈.<br><br>
 ![alt results](Media/HonoringCeremony.jpg)
